@@ -21,7 +21,7 @@ Visit the live site: [https://donathan.us](https://donathan.us)
 
 ## Tech Stack
 
-- **Frontend**: HTML5, CSS3
+- **Frontend**: HTML, CSS
 - **Deployment**: GitHub Pages
 - **CI/CD**: GitHub Actions
 
