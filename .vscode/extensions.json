@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "wscats.cors-browser",
+        "github.vscode-github-actions",
+        "github.vscode-pull-request-github",
+        "github.remotehub",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-preview-github-styles"
+    ]
+}
