@@ -1,0 +1,152 @@
+/* General body styles */
+body {
+    background-color: #000000;
+    color: #00ff00; /* Neon Green for general text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Main container */
+.main-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #1a1a1a; /* Slightly lighter black for sections */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.7); /* Neon green glow */
+}
+
+/* Main heading */
+.main-heading {
+    color: #00ffff; /* Neon Cyan for headings */
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+/* Intro paragraph */
+.intro-text {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.1em;
+}
+
+/* Section headings - magenta */
+.section-heading-magenta {
+    color: #ff00ff; /* Neon Magenta for sub-headings */
+    border-bottom: 2px solid #ff00ff;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    text-shadow: 0 0 8px #ff00ff;
+}
+
+/* Section headings - cyan */
+.section-heading-cyan {
+    color: #00ffff;
+    border-bottom: 2px solid #00ffff;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    text-shadow: 0 0 8px #00ffff;
+}
+
+/* About me paragraph */
+.about-text {
+    margin-bottom: 20px;
+}
+
+/* Skills list */
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Skill items */
+.skill-item {
+    background-color: #333333;
+    color: #00ff00;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #00ff00;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
+
+/* Portfolio project containers */
+.project-container-cyan {
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #00ffff;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.project-container-magenta {
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ff00ff;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+}
+
+/* Project titles */
+.project-title-cyan {
+    color: #00ffff;
+    margin-top: 0;
+}
+
+.project-title-magenta {
+    color: #ff00ff;
+    margin-top: 0;
+}
+
+/* Project links */
+.project-link {
+    color: #00ff00;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+/* Contact text */
+.contact-text {
+    text-align: center;
+}
+
+/* button - cyan */
+.button-cyan {
+    color: #000000;
+    background-color: #00ffff;
+    text-shadow: 0 0 8px #ff00ff;
+    border-color:#000000;
+    font-weight: bold;
+}
+
+/* dialog */
+.dialog {
+    color: #ff00ff;
+    background-color: #000000;
+    border-color:#ffffff;
+    font-weight: bold;
+}
+
+/* Contact links */
+.contact-link {
+    color: #ff00ff;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ff00ff;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #888888;
+}
